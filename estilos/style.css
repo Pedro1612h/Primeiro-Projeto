@@ -75,3 +75,11 @@ header {
     text-decoration: none;
     color: black
 }    
+
+.login .deslogado {
+    
+}
+
+.login .logado{
+    display: none;
+}
