@@ -7,7 +7,7 @@ export function renderizarCatalogo() {
         <div class="foto">
           <img
           src="./img/${produtoCatalogo.nomeArquivoImagem}"
-          alt="Produto 1 do Magazine Hashtag."
+          alt=""
           class='group-hover:scale-110 duration-300 my-3 rounded-lg'
           />
         </div>
