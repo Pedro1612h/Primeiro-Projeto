@@ -12,7 +12,7 @@ export function renderizarCatalogo() {
         <p class='nome'>${produtoCatalogo.nome}</p>
         <p class='preco'>$${produtoCatalogo.preco}</p>
         <button id='adicionar-${produtoCatalogo.id}' class='botao-adicionar'
-        >Adicionar</button>
+        >Visualizar</button>
         </div>`;
 
     document.getElementById("container-produto").innerHTML += cartaoProduto;
