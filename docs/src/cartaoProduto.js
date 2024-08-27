@@ -3,7 +3,7 @@ import { catalogo } from "./utulidades.js";
 
 export function renderizarCatalogo() {
   for (const produtoCatalogo of catalogo) {
-    const cartaoProduto = `<div class="aria-item" id="card-produto-${produtoCatalogo.id}">
+    const cartaoProduto = `<div class="aria-item" id="card-produto-${produtoCatalogo.id} ${produtoCatalogo.lancamento ? 'lancamento' : 'pronto'}">
         <div class="foto">
           <img
           src="./img/${produtoCatalogo.nomeArquivoImagem}"

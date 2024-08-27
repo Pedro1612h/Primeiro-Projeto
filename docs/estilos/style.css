@@ -69,6 +69,19 @@ header {
     color: #ff7100;
 }
 
+.menu nav div{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu nav div:hover{
+    color: #ff7100;
+}
+
 .login {
     margin-right: 2vw;
 }
@@ -144,6 +157,8 @@ main section{
     border-radius: 10px;
     
 }
+
+
 
 .aria-item button{
     cursor: pointer;
