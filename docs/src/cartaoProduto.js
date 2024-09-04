@@ -6,7 +6,7 @@ export function renderizarCatalogo() {
     const cartaoProduto = `<div class="aria-item" id="card-produto-${produtoCatalogo.id} ${produtoCatalogo.lancamento ? 'lancamento' : 'pronto'}">
         <div class="foto">
           <img
-          src="./img/${produtoCatalogo.nomeArquivoImagem}"
+          src="./imagens/produtos/${produtoCatalogo.nomeArquivoImagem}"
           alt=""/>
         </div>
         <p class='nome'>${produtoCatalogo.nome}</p>

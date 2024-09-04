@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styleform.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Formulario </h1>
+            <div class="input-box">
+                <input type="text" placeholder="Usuario" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Nome" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="Tipo" required>
+                
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Preço" required>
+                
+            </div>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <label for="imageUpload" class="upload-button">Selecione uma imagem</label>
+                <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+                <p class="file-name" id="fileName">Nenhum arquivo selecionado</p>
+            </form>
+            <button type="submit" class="btn">Enviar</button>
+            <a href="../index.html">Voltar</a>
+        </form>
+    </div>
+    <script src="../src/formulario.js"></script>
+</body>
+</html>

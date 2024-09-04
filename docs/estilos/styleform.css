@@ -52,12 +52,33 @@ body{
     color: white;
 }
 
-.input-box i{
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 20px;
+#imageUpload {
+    display: none;
+}
+
+.upload-button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    justify-content: center;
+    
+}
+
+
+.upload-button:hover {
+    background-color: #45a049;
+}
+
+.file-name {
+    margin: 10px 0px;
+    font-style: italic;
+    color: white;
+    text-align: center;
 }
 
 .wrapper .remember{
@@ -92,21 +113,14 @@ body{
     font-size: 16px;
     color: rgb(51, 51, 51); 
     font-weight: 600;
+    margin: 5px 0px;
 }
 
-.wrapper .register-link{
-    font-size: 14.5px;
-    text-align: center;
-    margin: 20px 0 15px;
-}
-
-.register-link p a{
+.wrapper a{
     color: white;
     text-decoration: none;
-    font-weight: 600;
+    margin:0px auto ;
+    display: table;
 }
 
-.register-link p a:hover{
-    text-decoration: underline;
-}
 

@@ -10,9 +10,9 @@ export const catalogo = [
         id: "2",
         nome: "apartamento",
         preco: 20000.00,
-        nomeArquivoImagem: "",
+        nomeArquivoImagem: "das.jpg",
         lancamento: false,
-    },
+    },  
     {
         id: "3",
         nome: "apartamento",
@@ -55,5 +55,6 @@ export const catalogo = [
         nomeArquivoImagem: "",
         lancamento: false,
     },
+    
 
 ]
