@@ -206,3 +206,53 @@ main section{
     margin-top: auto;
 }
 
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    margin-bottom: 15px;
+
+}
+
+.footer-content i{
+    color: white;
+}
+
+.footer-content a{
+    color: white;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: white;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+    color: white;
+}
