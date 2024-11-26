@@ -4,3 +4,11 @@
 <a href="https://pedro1612h.github.io/Projeto-faculdade-site-imobiliario/docs/formulario/formulario.html">Formulario</a>
 
 Tema escolhido: imobiliaria
+
+
+Grupo: 
+
+Miguel Ramin - 2024 0241 0628 
+Luís Fernando da Silva Rodrigues Barbosa - 2024 0394 5355
+Lucas do Nascimento Ferreira de Souza - 2024 0302 7127
+Pedro Henrique Carnieli Moreira - 2024 0239 2581
