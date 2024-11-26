@@ -10,9 +10,10 @@ export function renderizarCatalogo() {
           alt=""/>
         </div>
         <p class='nome'>${produtoCatalogo.nome}</p>
-        <p class='preco'>$${produtoCatalogo.preco}</p>
-        <button id='adicionar-${produtoCatalogo.id}' class='botao-adicionar'
-        >Visualizar</button>
+        <p class='local'>${produtoCatalogo.local}</p>
+        <p class='preco'>${produtoCatalogo.preco}</p>
+        <a href="./paginasDosProdutos/${produtoCatalogo.link}"><button id='adicionar-${produtoCatalogo.id}' class='botao-adicionar'
+        >Visualizar</button></a>
         </div>`;
 
     document.getElementById("container-produto").innerHTML += cartaoProduto;
